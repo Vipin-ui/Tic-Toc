@@ -172,6 +172,7 @@ export default function TodoApp() {
                   placeholder="What's on your mind?"
                   maxLength={100}
                   className="input-field"
+                  style={{ color: "black" }}
                 />
                 <button onClick={addTask} className="btn-add">
                   <Plus size={20} />
